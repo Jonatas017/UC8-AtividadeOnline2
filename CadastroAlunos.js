@@ -19,15 +19,15 @@ if (idade <= 19) {
 }
 
 //lista de participantes/palestrantes
-let listaTotal = 99
+let listaTotal = 100
 
-for (let listaTotal = 0; listaTotal < 99; listaTotal++) {
-    console.log("Participante/Palestrante " + listaTotal)
+for (let listaTotal = 0; listaTotal < 100; listaTotal++) {
+  //  console.log("Participante/Palestrante " + listaTotal)
     
 }
 
 if (listaTotal >= 100) {
-    console.log("permitido, continuar cadastro")
+    console.log("Cadastro criado com sucesso!")
 }else 
 {   console.log("cadastro não será permitido por ter excedido o limite.")
 
